@@ -16,23 +16,24 @@ for details on configuring this project to bundle and minify static web assets. 
   fill: none;
   stroke: #000;
   stroke-miterlimit: 10;
-  stroke-width: 10px;
+  stroke-width: 14px;
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: strokeOffset-b-qykq481rpg 4s 1s linear forwards;
+  animation: strokeOffset-b-qykq481rpg 4.5s 1s linear forwards;
 }
-
-/* Animation the stroke-dashoffset to a zero length */
+/* animate the signature stroke */
 @keyframes strokeOffset-b-qykq481rpg {
   to {
     stroke-dashoffset: 0;
   }
 }
-/* Apply the animation to each mask */
-#mask-M[b-qykq481rpg] {
-  animation: strokeOffset-b-qykq481rpg 1s linear forwards;
+
+.navbar-collapse[b-qykq481rpg] {
+  justify-content: flex-end;
 }
 
+
+/* button styles */
 a[b-qykq481rpg] {
   color: #0077cc;
 }
