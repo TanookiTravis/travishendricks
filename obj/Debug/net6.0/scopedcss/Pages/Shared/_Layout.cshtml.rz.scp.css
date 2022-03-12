@@ -19,6 +19,7 @@ for details on configuring this project to bundle and minify static web assets. 
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: strokeOffset-b-qykq481rpg 4.5s 1s linear forwards;
+  /* comment for testing git push */
 }
 /* animate the signature stroke */
 @keyframes strokeOffset-b-qykq481rpg {
