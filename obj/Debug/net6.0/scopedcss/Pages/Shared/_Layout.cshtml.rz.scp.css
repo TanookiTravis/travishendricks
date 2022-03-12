@@ -1,38 +1,6 @@
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-.navbar[b-qykq481rpg] {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.navbar-brand-box[b-qykq481rpg] {
-  width: 180px;
-  margin-right: 2rem;
-}
-
-.navbar-logo-sig[b-qykq481rpg] {
-  fill: none;
-  stroke: #000;
-  stroke-miterlimit: 10;
-  stroke-width: 14px;
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: strokeOffset-b-qykq481rpg 4.5s 1s linear forwards;
-  /* comment for testing git push */
-}
-/* animate the signature stroke */
-@keyframes strokeOffset-b-qykq481rpg {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-.navbar-collapse[b-qykq481rpg] {
-  justify-content: flex-end;
-}
-
-
 /* button styles */
 a[b-qykq481rpg] {
   color: #0077cc;
@@ -48,17 +16,6 @@ a[b-qykq481rpg] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
-}
-
-.border-top[b-qykq481rpg] {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom[b-qykq481rpg] {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow[b-qykq481rpg] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
 button.accept-policy[b-qykq481rpg] {

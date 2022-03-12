@@ -1,3 +1,10 @@
+
+:root {
+  --dark-grey: #202124;
+  --black: #000;
+  --white: #fff;
+}
+
 html {
   font-size: 14px;
 }
@@ -11,8 +18,43 @@ html {
 html {
   position: relative;
   min-height: 100%;
+  background: var(--dark-grey);
 }
 
 body {
   margin-bottom: 60px;
+  color: var(--white);
+  background: var(--dark-grey);
+}
+
+/* navbar styles */
+.navbar {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background: var(--dark-grey);
+}
+
+.navbar-brand-box {
+  width: 180px;
+  margin-right: 2rem;
+}
+
+.navbar-logo-sig {
+  fill: none;
+  stroke: var(--white);
+  stroke-miterlimit: 10;
+  stroke-width: 14px;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: strokeOffset 4.5s 1s linear forwards;
+}
+/* animate the signature stroke */
+@keyframes strokeOffset {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
 }
