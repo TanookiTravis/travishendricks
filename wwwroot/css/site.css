@@ -35,8 +35,41 @@ body {
 }
 
 .navbar-brand-box {
-  width: 180px;
-  margin-right: 2rem;
+  display: flex;
+}
+
+.navbar-sticky-box {
+  position: fixed;
+  top: -250px;
+  left: 75px;
+  transition: all .5s;
+}
+.navbar-sticky-box.viewable {
+  top: -170px;
+}
+
+.navbar-brand-img {
+  width: 50%;
+}
+
+.navbar-brand-img img, .navbar-sticky-img img {
+  max-width: 100%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 6px var(--white);
+}
+
+.navbar-sticky-img img {
+  max-width: 230px;
+  transform: rotate(180deg);
+}
+
+.navbar-brand-sig {
+  width: 50%;
+  align-self: center;
+}
+
+.navbar-brand {
+  padding-left: 1.5rem;
 }
 
 .navbar-logo-sig {
