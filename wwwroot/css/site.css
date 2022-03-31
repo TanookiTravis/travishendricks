@@ -3,69 +3,68 @@
   --dark-grey: #202124;
   --black: #000;
   --white: #fff;
+  --green: #38ff00;
+  --font-family: 'Lato', sans-serif;
 }
 
-html {
+html, body {
+  font-family: var(--font-family);
   font-size: 14px;
 }
 
 @media (min-width: 768px) {
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
 html {
   position: relative;
   min-height: 100%;
-  background: var(--dark-grey);
+  background: var(--black);
 }
 
 body {
   margin-bottom: 60px;
   color: var(--white);
-  background: var(--dark-grey);
+  background: var(--black);
 }
 
 /* navbar styles */
 .navbar {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  background: var(--dark-grey);
+  background: var(--black);
 }
 
 .navbar-brand-box {
   display: flex;
+  max-width: 15rem;
 }
 
-.navbar-sticky-box {
+.navbar-toasty-box {
   position: fixed;
   top: -250px;
-  left: 75px;
+  left: 40px;
   transition: all .5s;
 }
-.navbar-sticky-box.viewable {
-  top: -170px;
+.navbar-toasty-box.viewable {
+  top: -90px;
 }
 
-.navbar-brand-img {
-  width: 50%;
-}
-
-.navbar-brand-img img, .navbar-sticky-img img {
+.navbar-toasty-img img {
   max-width: 100%;
   border-radius: 50%;
-  box-shadow: 0px 0px 0px 6px var(--white);
+  box-shadow: 0px 0px 0px 4px var(--green);
 }
 
-.navbar-sticky-img img {
-  max-width: 230px;
+.navbar-toasty-img img {
+  max-width: 8rem;
   transform: rotate(180deg);
 }
 
 .navbar-brand-sig {
-  width: 50%;
-  align-self: center;
+  width: 150px;
 }
 
 .navbar-brand {
@@ -90,4 +89,58 @@ body {
 
 .navbar-collapse {
   justify-content: flex-end;
+}
+
+.section-parallax {
+  background-image: url("/assets/trav_profile_splash.png");
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: right 100px top 120px;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  filter: hue-rotate(0deg);
+  animation: contrastWave 200s linear forwards infinite;
+}
+/* animate the signature stroke */
+@keyframes contrastWave {
+  from {
+    filter: hue-rotate(0deg);
+  }
+
+  25% {
+    filter: hue-rotate(90deg);
+  }
+
+  50% {
+    filter: hue-rotate(180deg);
+  }
+
+  75% {
+    filter: hue-rotate(280deg);
+  }
+
+  to {
+    filter: hue-rotate(0deg);
+  }
+}
+
+.content {
+  padding: 5rem 8rem;
+  font-size: 1rem;
+}
+
+/* color classes */
+.color-green {
+  color: var(--green);
+}
+
+/* headers */
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 700;
 }
