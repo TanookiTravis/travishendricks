@@ -3,8 +3,9 @@
   --dark-grey: #202124;
   --black: #000;
   --white: #fff;
-  --green: #38ff00;
+  --green: #2ac100;
   --font-family: 'Lato', sans-serif;
+  --font-family-sig: 'Amatic SC', cursive;
 }
 
 html, body {
@@ -55,7 +56,7 @@ body {
 .navbar-toasty-img img {
   max-width: 100%;
   border-radius: 50%;
-  box-shadow: 0px 0px 0px 4px var(--green);
+  box-shadow: 0px 0px 0px 3px var(--green);
 }
 
 .navbar-toasty-img img {
@@ -93,37 +94,18 @@ body {
 
 .section-parallax {
   background-image: url("/assets/trav_profile_splash.png");
-  min-height: 500px;
+  min-height: 95vh;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: right 100px top 120px;
   background-repeat: no-repeat;
-  background-size: 40%;
-  filter: hue-rotate(0deg);
-  animation: contrastWave 200s linear forwards infinite;
+  background-size: 50%;
 }
-/* animate the signature stroke */
-@keyframes contrastWave {
-  from {
-    filter: hue-rotate(0deg);
-  }
-
-  25% {
-    filter: hue-rotate(90deg);
-  }
-
-  50% {
-    filter: hue-rotate(180deg);
-  }
-
-  75% {
-    filter: hue-rotate(280deg);
-  }
-
-  to {
-    filter: hue-rotate(0deg);
-  }
+.section-parallax h1 {
+  padding: 1rem 0 0 3rem;
+  font-size: 3rem;
+  font-family: var(--font-family-sig);
 }
 
 .content {
