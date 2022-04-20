@@ -1,3 +1,5 @@
+using travishendricks.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -12,6 +14,24 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+// WebApplicationBuilder builder = WebApplication.CreateBuilder();
+// // Add services to the container.
+// builder.Services.AddControllersWithViews();
+// builder.Services.Configure<GzipCompressionProviderOptions>(options => options.Level = CompressionLevel.Fastest);
+
+// builder.Services.AddResponseCompression(options =>
+// {
+//     options.Providers.Add<GzipCompressionProvider>();
+//     options.EnableForHttps = true;
+// });
+
+// builder.WebHost.ConfigureKestrel(serverOptions =>
+// {
+// });
+builder.Services.AddHttpClient();
+builder.Services.AddTransient<IProjectService, ProjectService>();
+builder.Services.AddTransient<IHttpRequestService, HttpRequestService>();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

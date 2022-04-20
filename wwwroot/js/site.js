@@ -11,7 +11,7 @@ var bySelector = function( selector ) { return document.querySelector( selector 
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+  if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
     byId("navbar-toasty").classList.add("viewable");
   } else {
     byId("navbar-toasty").classList.remove("viewable");
