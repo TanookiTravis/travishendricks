@@ -93,14 +93,19 @@ body {
 }
 
 .section-parallax {
-  background-image: url("/assets/trav_profile_splash.png");
-  min-height: 95vh;
-
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: right 100px top 120px;
   background-repeat: no-repeat;
   background-size: 50%;
+}
+.section-parallax.travis {
+  min-height: 95vh;
+  background-image: url("/assets/trav_profile_splash.png");
+}
+.section-parallax.codewall {
+  min-height: 95vh;
+  background-image: url("/assets/trav_profile_codewall.png");
 }
 .section-parallax h1 {
   padding: 1rem 0 0 3rem;

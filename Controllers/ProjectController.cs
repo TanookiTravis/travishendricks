@@ -4,7 +4,7 @@ using travishendricks.Models;
 using System.ComponentModel.DataAnnotations;
 using travishendricks.Services;
 
-namespace BenjaminFriske.Portal.Controllers;
+namespace travishendricks.Controllers;
 
 /// <summary>
 /// Project controller for reference. 
