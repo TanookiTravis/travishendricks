@@ -107,6 +107,10 @@ body {
   min-height: 95vh;
   background-image: url("/assets/trav_profile_codewall.png");
 }
+.section-parallax.gears {
+  min-height: 95vh;
+  background-image: url("/assets/trav_profile_gears.png");
+}
 .section-parallax h1 {
   padding: 1rem 0 0 3rem;
   font-size: 3rem;

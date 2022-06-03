@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mhrk86Zz5ZZt6NTA5Ush9sVWFLDW1tVc+tc32l6h4rM=",
+  "Hash": "WBysNAs6zHa3xi9LrHdFcju9axXcZ2v80BAj2puPzFA=",
   "Source": "travishendricks",
   "BasePath": "_content/travishendricks",
   "Mode": "Default",
@@ -272,6 +272,23 @@
       "OriginalItemSpec": "wwwroot/assets/favicon/site.webmanifest"
     },
     {
+      "Identity": "/Users/travis.hendricks/Documents/travishendricks/wwwroot/assets/trav_profile_codewall.png",
+      "SourceId": "travishendricks",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/travis.hendricks/Documents/travishendricks/wwwroot/",
+      "BasePath": "_content/travishendricks",
+      "RelativePath": "assets/trav_profile_codewall.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/trav_profile_codewall.png"
+    },
+    {
       "Identity": "/Users/travis.hendricks/Documents/travishendricks/wwwroot/assets/trav_profile_splash.png",
       "SourceId": "travishendricks",
       "SourceType": "Discovered",
@@ -287,6 +304,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/trav_profile_splash.png"
+    },
+    {
+      "Identity": "/Users/travis.hendricks/Documents/travishendricks/wwwroot/assets/trav_profile_splashZ.png",
+      "SourceId": "travishendricks",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/travis.hendricks/Documents/travishendricks/wwwroot/",
+      "BasePath": "_content/travishendricks",
+      "RelativePath": "assets/trav_profile_splashZ.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/trav_profile_splashZ.png"
     },
     {
       "Identity": "/Users/travis.hendricks/Documents/travishendricks/wwwroot/assets/trav_profile.jpeg",
