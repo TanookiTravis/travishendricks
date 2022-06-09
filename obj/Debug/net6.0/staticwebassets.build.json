@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WBysNAs6zHa3xi9LrHdFcju9axXcZ2v80BAj2puPzFA=",
+  "Hash": "3EtsmwC8DfYCo0ECZDtP7qy8bHVRYzh6+vdVPMdeHDs=",
   "Source": "travishendricks",
   "BasePath": "_content/travishendricks",
   "Mode": "Default",
@@ -287,6 +287,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/trav_profile_codewall.png"
+    },
+    {
+      "Identity": "/Users/travis.hendricks/Documents/travishendricks/wwwroot/assets/trav_profile_gears.png",
+      "SourceId": "travishendricks",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/travis.hendricks/Documents/travishendricks/wwwroot/",
+      "BasePath": "_content/travishendricks",
+      "RelativePath": "assets/trav_profile_gears.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/trav_profile_gears.png"
     },
     {
       "Identity": "/Users/travis.hendricks/Documents/travishendricks/wwwroot/assets/trav_profile_splash.png",
